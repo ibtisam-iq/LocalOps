@@ -1,0 +1,48 @@
+ibtisam@mint-dell:~/git/Agri2Ops/03.Projects/00.Build (LocalOps)/06-JSDemoWebPage$ tree -a
+.
+├── about.html
+├── app.js
+├── index.html
+└── package.json
+
+1 directory, 4 files
+
+Here's a quick breakdown of the files:
+
+about.html: Likely the webpage content for the "about" section.
+
+app.js: This is likely the main JavaScript file controlling the functionality of the webpage.
+
+index.html: The landing page for the website.
+
+package.json: This file manages the project’s dependencies, scripts, and metadata for the Node.js environment.
+
+-----------------------------------------------------------------------------------
+
+ibtisam@lubuntu:~$ cd SilverOps/03.\ Projects/00.\ LocalOps/0.1.06-js_Demo-Webpage/
+ibtisam@lubuntu:~/SilverOps/03. Projects/00. LocalOps/0.1.06-js_Demo-Webpage$ ls
+about.html  app.js  index.html  package.json
+ibtisam@lubuntu:~/SilverOps/03. Projects/00. LocalOps/0.1.06-js_Demo-Webpage$ npm start
+Command 'npm' not found, but can be installed with:
+sudo apt install npm
+ibtisam@lubuntu:~/SilverOps/03. Projects/00. LocalOps/0.1.06-js_Demo-Webpage$ sudo apt install npm
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+
+ibtisam@lubuntu:~/SilverOps/03. Projects/00. LocalOps/0.1.06-js_Demo-Webpage$ ls
+about.html  app.js  index.html  package.json
+ibtisam@lubuntu:~/SilverOps/03. Projects/00. LocalOps/0.1.06-js_Demo-Webpage$ npm install
+
+added 72 packages, and audited 73 packages in 19s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+ibtisam@lubuntu:~/SilverOps/03. Projects/00. LocalOps/0.1.06-js_Demo-Webpage$ npm start
+
+> basic-nodejs@1.0.0 start
+> node app.js
+
+Listening on port 8081
