@@ -24,3 +24,10 @@ Your app is ready to be deployed!
 ## Project Structure
 
 Please refer to `consoleOutput.txt` for more details. 😊
+
+## Troubleshooting
+
+1. Open Developer Tools (`F12` or `Ctrl + Shift + I`).
+2. Go to the **Network** tab.
+3. Check the **Disable Cache** option.
+4. Perform a Hard Refresh (`Ctrl + Shift + R`).
